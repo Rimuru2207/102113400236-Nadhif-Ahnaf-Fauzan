@@ -257,7 +257,7 @@ penjelasan unguided 3
 Dari pertemuan minggu pertama ini, hanya diberikan tutorial install C++ dan berlatih menggunakan kode C++ saja.
 
 ## Referensi
-[1] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4. 
+[1] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 25 September 2025 melalui https://doi.org/10.21070/2020/978-623-6833-67-4. 
 <br>[2] Wikipedia. (2025). Aritmetika. Diakses pada 25 September 2025, dari https://id.wikipedia.org/wiki/Aritmetika
 <br>[3] Blog Rumah Coding. (2022). Percabangan C++. Diakses pada 25 September 2025, dari https://blog.rumahcoding.co.id/percabangan-c/
 <br> [4] W3shcools. (2025). Struktur  C++ (struct). Diakses pada 25 September 2025, dari https://www.w3schools.com/cpp/cpp_structs.asp
