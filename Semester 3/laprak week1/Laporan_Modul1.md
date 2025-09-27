@@ -213,7 +213,7 @@ int main () {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1] (https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester%203/laprak%20week1/Output-unguided2.png)
+![Screenshot Output Unguided 2_1](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester%203/laprak%20week1/Output-unguided2.png)
 
 
 penjelasan unguided 2
