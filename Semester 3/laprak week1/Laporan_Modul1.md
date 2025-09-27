@@ -171,6 +171,7 @@ int main() {
 ![Screenshot Output Unguided 1_1](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester%203/laprak%20week1/Output-unguided1.png)
 
 penjelasan unguided 1 
+Program ini menjalankan sebuah operasi dasar matematika dengan menginputkan dua buah angka.
 
 ### 2. Unguided 2
 Buatlah sebuah program yang menerima masukan angka dan mengeluarkan output nilai angka tersebut dalam bentuk tulisan. Angka yang akan di-input-kan user adalah bilangan bulat positif mulai dari 0 s.d 100
@@ -214,6 +215,7 @@ int main () {
 
 
 penjelasan unguided 2
+Program ini dibuat untuk mengkonversikan bilangan menjadi kalimat.
 
 ### 3. Soal Unguided 3
 ![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester%203/laprak%20week1/Soal-3.png)
@@ -249,6 +251,7 @@ int main() {
 ![Screenshot Output Unguided 3_1](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester%203/laprak%20week1/Output-unguided3.png)
 
 penjelasan unguided 3
+Program ini bertujuan untuk membuat sebuah segitiga dengan tinggi sebanyak angka yang kita inputkan.
 
 ## Kesimpulan
 Dari pertemuan minggu pertama ini, hanya diberikan tutorial install C++ dan berlatih menggunakan kode C++ saja.
