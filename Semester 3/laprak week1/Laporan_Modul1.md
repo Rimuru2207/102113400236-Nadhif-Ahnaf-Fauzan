@@ -219,7 +219,7 @@ int main () {
 penjelasan unguided 2
 
 ### 3. Soal Unguided 3
-(https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester%203/laprak%20week1/Soal-3.png)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester%203/laprak%20week1/Soal-3.png)
 ```C++
 #include <iostream>
 using namespace std;
