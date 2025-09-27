@@ -173,9 +173,6 @@ int main() {
 contoh :
 ![Screenshot Output Unguided 1_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided1-1.png)
 
-##### Output 2
-![Screenshot Output Unguided 1_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
 penjelasan unguided 1 
 
 ### 2. Unguided 2
@@ -216,14 +213,12 @@ int main () {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1]
+![Screenshot Output Unguided 2_1] (https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester%203/laprak%20week1/Output-unguided2.png)
 
-##### Output 2
-![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
 
 penjelasan unguided 2
 
-### 3. (isi dengan soal unguided 3)
+### 3. Soal Unguided 3
 
 ```C++
 source code unguided 3
