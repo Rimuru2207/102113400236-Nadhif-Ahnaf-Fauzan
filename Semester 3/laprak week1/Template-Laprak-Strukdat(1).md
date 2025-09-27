@@ -168,7 +168,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](https://github.com/Rimuru2207/103112400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester3/laprak_week1/Output-unguided1.png)
+![Screenshot Output Unguided 1_1](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester%203/laprak%20week1/Output-unguided1.png)
 
 contoh :
 ![Screenshot Output Unguided 1_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided1-1.png)
@@ -178,18 +178,45 @@ contoh :
 
 penjelasan unguided 1 
 
-### 2. (isi dengan soal unguided 2)
+### 2. Unguided 2
+Buatlah sebuah program yang menerima masukan angka dan mengeluarkan output nilai angka tersebut dalam bentuk tulisan. Angka yang akan di-input-kan user adalah bilangan bulat positif mulai dari 0 s.d 100
 
 ```C++
-source code unguided 2
+#include <iostream>
+using namespace std;
+
+string angkaTulisan (int angka) {
+    string satuan[] = {"nol", "satu", "dua", "tiga", "empat", "lima", "enam", "tujuh", "delapan", "sembilan"};
+    string belasan[] = {"sepuluh", "sebelas", "dua belas", "tiga belas", "empat belas", "lima belas", "enam belas", "tujuh belas", "delapan belas", "sembilan belas"};
+    string puluhan[] = {"", "", "dua puluh", "tiga puluh", "empat puluh", "lima puluh", "enam puluh", "tujuh puluh", "delapan puluh", "sembilan puluh"};
+
+    if (angka < 10) return satuan[angka];
+    else if (angka < 20) return belasan[angka - 10];
+    else if (angka < 100) {
+        int puluh = angka / 10;
+        int satu = angka % 10;
+        if (satu == 0) return puluhan[puluh];
+        else return puluhan[puluh] + " " + satuan[satu];
+    } else if (angka == 100) {
+        return "seratus";
+    } else {
+        return "tidak valid";
+    }
+}
+
+int main () {
+    int angka2;
+    cout << "masukan angka (0-100): " << endl;
+    cin >> angka2;
+    cout << angka2 << " : "  << angkaTulisan(angka2) << endl;
+    return 0;
+}
+
 ```
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
-
-contoh :
-![Screenshot Output Unguided 2_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided2-1.png)
+![Screenshot Output Unguided 2_1]
 
 ##### Output 2
 ![Screenshot Output Unguided 2_2](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
