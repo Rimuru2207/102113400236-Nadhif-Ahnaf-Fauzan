@@ -170,10 +170,8 @@ int main() {
 ##### Output 1
 ![Screenshot Output Unguided 1_1](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester%203/laprak%20week1/Output-unguided1.png)
 
-contoh :
-![Screenshot Output Unguided 1_1](https://github.com/DhimazHafizh/2311102151_Muhammad-Dhimas-Hafizh-Fathurrahman/blob/main/Pertemuan1_Modul1/Output-Unguided1-1.png)
-
 penjelasan unguided 1 
+Program ini menjalankan sebuah operasi dasar matematika dengan menginputkan dua buah angka.
 
 ### 2. Unguided 2
 Buatlah sebuah program yang menerima masukan angka dan mengeluarkan output nilai angka tersebut dalam bentuk tulisan. Angka yang akan di-input-kan user adalah bilangan bulat positif mulai dari 0 s.d 100
@@ -213,13 +211,14 @@ int main () {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1] (https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester%203/laprak%20week1/Output-unguided2.png)
+![Screenshot Output Unguided 2_1](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester%203/laprak%20week1/Output-unguided2.png)
 
 
 penjelasan unguided 2
+Program ini dibuat untuk mengkonversikan bilangan menjadi kalimat.
 
 ### 3. Soal Unguided 3
-(https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester%203/laprak%20week1/Soal-3.png)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester%203/laprak%20week1/Soal-3.png)
 ```C++
 #include <iostream>
 using namespace std;
@@ -249,15 +248,16 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](https://github.com/(username github kalian)/(nama repository github kalian)/blob/main/(path folder menyimpan screenshot output)/(nama file screenshot output).png)
+![Screenshot Output Unguided 3_1](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester%203/laprak%20week1/Output-unguided3.png)
 
 penjelasan unguided 3
+Program ini bertujuan untuk membuat sebuah segitiga dengan tinggi sebanyak angka yang kita inputkan.
 
 ## Kesimpulan
 Dari pertemuan minggu pertama ini, hanya diberikan tutorial install C++ dan berlatih menggunakan kode C++ saja.
 
 ## Referensi
-[1] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 10 Maret 2024 melalui https://doi.org/10.21070/2020/978-623-6833-67-4. 
+[1] Indahyati, Uce., Rahmawati Yunianita. (2020). "BUKU AJAR ALGORITMA DAN PEMROGRAMAN DALAM BAHASA C++". Sidoarjo: Umsida Press. Diakses pada 25 September 2025 melalui https://doi.org/10.21070/2020/978-623-6833-67-4. 
 <br>[2] Wikipedia. (2025). Aritmetika. Diakses pada 25 September 2025, dari https://id.wikipedia.org/wiki/Aritmetika
 <br>[3] Blog Rumah Coding. (2022). Percabangan C++. Diakses pada 25 September 2025, dari https://blog.rumahcoding.co.id/percabangan-c/
 <br> [4] W3shcools. (2025). Struktur  C++ (struct). Diakses pada 25 September 2025, dari https://www.w3schools.com/cpp/cpp_structs.asp
