@@ -277,7 +277,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](github image link)
+![Screenshot Output Unguided 1_1](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester%203/week2/Output%20Unguided%201.png)
 
 penjelasan unguided 1 
     Program ini meminta input 2 buah matrix 2dimensi (Mat A dan Mat B) sepanjang 3x3, lalu program akan menghitung operasi dasar antar Matrix A dan Matrix B.
@@ -322,7 +322,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](github image link)
+![Screenshot Output Unguided 2_1](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester%203/week2/Output%20Unguided%202.png)
 
 penjelasan unguided 2
     Program ini mempunyai 3 buah variabel XYZ, yang masing masing akan ditukar dengan pointer dan reference.
@@ -408,11 +408,11 @@ int main() {
 ##### Output 1
 Menu 1-2:
 
-![Screenshot Output Unguided 3_1](github image link)
+![Screenshot Output Unguided 3_1](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester%203/week2/Output%20Unguided%203%20(menu%201%20dan%202).png)
 
 Menu 3-5:
 
-![Screenshot Output Unguided 3_1](github image link)
+![Screenshot Output Unguided 3_1](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester%203/week2/Output%20Unguided%203%20(menu%203%204%205).png)
 
 penjelasan unguided 3
     Program ini membuat sebuah program kecil dengan menu tertentu, program ini sudah mempunyai array, user tinggal memilih mau diapakan array tersebut dengan menu yang tersedia (cari max, cari min, hitung rata-rata, atau langsung keluar dari program).
