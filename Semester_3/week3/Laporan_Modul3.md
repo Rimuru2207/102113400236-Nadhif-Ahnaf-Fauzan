@@ -168,7 +168,7 @@ penjelasan unguided 1
 Program ini akan meminta jumlah mahasiswa, user akan menginputkan Nama, NIM, Nilai-Nilai sebanyak jumlah mahasiswa yang di masukan oleh user, program akan mengeluarkan nilai akhir yaitu hasil dari operasi antar 3 nilai.
 
 ### 2. Unguided 2
-!(https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week3/soalno2.png)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week3/soalno2.png)
 
 #### pelajaran.h
 
