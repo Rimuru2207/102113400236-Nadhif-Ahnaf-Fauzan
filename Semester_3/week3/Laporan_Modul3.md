@@ -162,13 +162,13 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](Github file)
+![Screenshot Output Unguided 1_1](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week3/outputno1.png)
 
 penjelasan unguided 1 
 Program ini akan meminta jumlah mahasiswa, user akan menginputkan Nama, NIM, Nilai-Nilai sebanyak jumlah mahasiswa yang di masukan oleh user, program akan mengeluarkan nilai akhir yaitu hasil dari operasi antar 3 nilai.
 
 ### 2. Unguided 2
-!(github file)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week3/soalno2.png)
 
 #### pelajaran.h
 
@@ -229,7 +229,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](File Github)
+![Screenshot Output Unguided 2_1](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week3/outputno2.png)
 
 
 penjelasan unguided 2
@@ -303,7 +303,7 @@ int main() {
 ### Output Unguided 3 :
 
 ##### Output 1
-![Screenshot Output Unguided 3_1](File Github)
+![Screenshot Output Unguided 3_1](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week3/outputno3.png)
 
 penjelasan unguided 3
 Program ini menampilkan 2 buah array 3x3, masing masing array akan ditukar nilainya, program akan menampilkan array sebelum di tukar nilai (default) menukar elemen [1][1], dan menukar pointer.
