@@ -368,8 +368,8 @@ penjelasan singkat guided 2
 ## Unguided 
 
 ### 1. Soal unguided no 1
-![] (https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week4/soal1p1.png)
-![] (https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week4/soal1p2.png)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week4/soal1p1.png)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week4/soal1p2.png)
 
 #### 1. singlylist.h
 
