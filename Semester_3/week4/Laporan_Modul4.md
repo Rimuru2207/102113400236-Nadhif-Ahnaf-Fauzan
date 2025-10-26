@@ -368,8 +368,8 @@ penjelasan singkat guided 2
 ## Unguided 
 
 ### 1. Soal unguided no 1
-![] (github file)
-![] (github file)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week4/soal1p1.png)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week4/soal1p2.png)
 
 #### 1. singlylist.h
 
@@ -471,13 +471,13 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](Github file)
+![Screenshot Output Unguided 1_1](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week4/outputno1.png)
 
 penjelasan unguided 1 
 Program ini akan memasukan list angka kedalam list sesuai dengan pointer masing masing angka.
 
 ### 2. Unguided 2
-![](github file)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week4/soal2.png)
 
 #### 1. singlylist.h
 
@@ -644,7 +644,7 @@ int main() {
 ### Output Unguided 2 :
 
 ##### Output 1
-![Screenshot Output Unguided 2_1](File Github)
+![Screenshot Output Unguided 2_1](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week4/outputuno2.png)
 
 
 penjelasan unguided 2
