@@ -746,7 +746,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](Github file)
+![Screenshot Output Unguided 1_1](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week5/output1.png)
 
 penjelasan unguided 1 
 Program ini akan memasukan list angka program akan meminta input angka untuk di update, lalu program akan menampilkan list yang sudah di update, program akan mencari node dan menampilkan jika ketemu alamatnya apa, program akan menampilkan list yang mempunya range angka lebih besar dari 40, program akan melakukan operasi aritmatika pada list tersebut.
