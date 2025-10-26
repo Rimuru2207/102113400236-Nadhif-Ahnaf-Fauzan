@@ -4,8 +4,8 @@
 ## Dasar Teori
 Single linked list adalah jenis paling dasar dari linked list di mana setiap node terhubung ke node berikutnya dalam urutan linear. Setiap node memiliki dua bagian: data yang disimpan dan referensi ke node berikutnya dalam urutan.[1].
 
-### A. Materi Minggu Ketiga<br/>
-Dalam pertemuan minggu ketiga di mata kuliah Struktur Data, mahasiswa dijelaskan tentang Linked List, terutama Single Linked List, menambahkan list dan menghapus list tertentu, lalu membuat program berikut:
+### A. Materi Minggu Kelima<br/>
+Dalam pertemuan minggu kelima di mata kuliah Struktur Data, mahasiswa dijelaskan tentang Linked List, terutama Single Linked List, menambahkan list dan menghapus list tertentu, lalu membuat program berikut:
 #### 1. Single Linked List (Update List)
 Penyisipan dan penghapusan di tengah linked list merupakan operasi yang penting dalam manajemen linked list karena memungkinkan kita untuk menambah atau menghapus elemen pada posisi yang ditentukan di antara elemen-elemen yang ada. Saat melakukan operasi ini, kita perlu memastikan untuk menyesuaikan referensi antar node sehingga linked list tetap terhubung secara konsisten[1].
 
