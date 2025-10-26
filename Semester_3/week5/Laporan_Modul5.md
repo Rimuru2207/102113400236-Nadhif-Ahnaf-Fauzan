@@ -12,7 +12,7 @@ Penyisipan dan penghapusan di tengah linked list merupakan operasi yang penting 
 
 ## Guided 
  
-### 1. SLL (add)
+### 1. SLL (Update)
 
 #### 1. listBuah.h
 ```C++
@@ -433,7 +433,7 @@ penjelasan singkat guided 2
 
 ## Unguided 
 Diberikan pseudo ADT SLL (ListAngka.h, ListAngka.cpp, main.cpp) terdapat 3 soal yang akan langsung menjadi 1 
-![](output)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week5/outputsoal1.png)
 
 ### Soal unguided no 1
 1. Buatlah procedure updateFirst, updateLast, dan updateAfter, pada "main.cpp" lakukan:
@@ -443,7 +443,7 @@ Diberikan pseudo ADT SLL (ListAngka.h, ListAngka.cpp, main.cpp) terdapat 3 soal 
 ➢ Update data 18 menjadi 20
 ➢ Tampilkan seluruh list setelah diupdate
 Outputnya:
-![](github file)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week5/outputsoal2.png)
 
 2. Buatlah procedure SearchByData, SearchByAddress, dan SearchByRange, pada "main.cpp" lakukan:
 ➢ Mencari data nilai 20
@@ -452,11 +452,11 @@ Outputnya:
 ➢ Mencari data alamat nodeA
 ➢ Mencari data dengan nilai minimal 40
 Outputnya:
-![](github file)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week5/outputsoal3.png)
 
 3. Lakukanlah operasi aritmetika penjumlahan, pengurangan, dan perkalian terhadap semua data yang ada didalam list tersebut! Untuk penjumlahan nilai awal adalah 0, untuk pengurangan nilai awal adalah nilai node pertama (first), untuk perkalian nilai awal adalah 1.
 Outputnya: 
-1[](github file)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week5/outputsoal4.png)
 
 #### 1. ListAngka.h
 
