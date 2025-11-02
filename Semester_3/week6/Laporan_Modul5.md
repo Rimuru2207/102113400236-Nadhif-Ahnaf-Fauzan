@@ -953,7 +953,7 @@ Outputnya:
 - procedure deleteAfter( input Prec : address, input/output P : address )
 
 Outputnya: 
-1[](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week6/soalno3.png)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week6/soalno3.png)
 
 #### 1. ListAngka.h
 
