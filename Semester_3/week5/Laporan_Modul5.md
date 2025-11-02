@@ -4,15 +4,15 @@
 ## Dasar Teori
 Single linked list adalah jenis paling dasar dari linked list di mana setiap node terhubung ke node berikutnya dalam urutan linear. Setiap node memiliki dua bagian: data yang disimpan dan referensi ke node berikutnya dalam urutan.[1].
 
-### A. Materi Minggu Ketiga<br/>
-Dalam pertemuan minggu ketiga di mata kuliah Struktur Data, mahasiswa dijelaskan tentang Linked List, terutama Single Linked List, menambahkan list dan menghapus list tertentu, lalu membuat program berikut:
+### A. Materi Minggu Kelima<br/>
+Dalam pertemuan minggu kelima di mata kuliah Struktur Data, mahasiswa dijelaskan tentang Linked List, terutama Single Linked List, menambahkan list dan menghapus list tertentu, lalu membuat program berikut:
 #### 1. Single Linked List (Update List)
 Penyisipan dan penghapusan di tengah linked list merupakan operasi yang penting dalam manajemen linked list karena memungkinkan kita untuk menambah atau menghapus elemen pada posisi yang ditentukan di antara elemen-elemen yang ada. Saat melakukan operasi ini, kita perlu memastikan untuk menyesuaikan referensi antar node sehingga linked list tetap terhubung secara konsisten[1].
 
 
 ## Guided 
  
-### 1. SLL (add)
+### 1. SLL (Update)
 
 #### 1. listBuah.h
 ```C++
@@ -433,7 +433,7 @@ penjelasan singkat guided 2
 
 ## Unguided 
 Diberikan pseudo ADT SLL (ListAngka.h, ListAngka.cpp, main.cpp) terdapat 3 soal yang akan langsung menjadi 1 
-![](output)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week5/outputsoal1.png)
 
 ### Soal unguided no 1
 1. Buatlah procedure updateFirst, updateLast, dan updateAfter, pada "main.cpp" lakukan:
@@ -443,7 +443,7 @@ Diberikan pseudo ADT SLL (ListAngka.h, ListAngka.cpp, main.cpp) terdapat 3 soal 
 ➢ Update data 18 menjadi 20
 ➢ Tampilkan seluruh list setelah diupdate
 Outputnya:
-![](github file)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week5/outputsoal2.png)
 
 2. Buatlah procedure SearchByData, SearchByAddress, dan SearchByRange, pada "main.cpp" lakukan:
 ➢ Mencari data nilai 20
@@ -452,11 +452,11 @@ Outputnya:
 ➢ Mencari data alamat nodeA
 ➢ Mencari data dengan nilai minimal 40
 Outputnya:
-![](github file)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week5/outputsoal3.png)
 
 3. Lakukanlah operasi aritmetika penjumlahan, pengurangan, dan perkalian terhadap semua data yang ada didalam list tersebut! Untuk penjumlahan nilai awal adalah 0, untuk pengurangan nilai awal adalah nilai node pertama (first), untuk perkalian nilai awal adalah 1.
 Outputnya: 
-1[](github file)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week5/outputsoal4.png)
 
 #### 1. ListAngka.h
 
@@ -746,7 +746,7 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](Github file)
+![Screenshot Output Unguided 1_1](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week5/output1.png)
 
 penjelasan unguided 1 
 Program ini akan memasukan list angka program akan meminta input angka untuk di update, lalu program akan menampilkan list yang sudah di update, program akan mencari node dan menampilkan jika ketemu alamatnya apa, program akan menampilkan list yang mempunya range angka lebih besar dari 40, program akan melakukan operasi aritmatika pada list tersebut.
