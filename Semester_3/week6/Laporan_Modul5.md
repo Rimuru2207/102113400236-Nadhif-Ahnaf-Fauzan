@@ -933,18 +933,19 @@ penjelasan singkat guided 2
     program ini hampir sama seperti program sebelumnya, tetapi program ini menambahkan fungsi cari makanan dan delete list, setelah user update isi list, program akan langsung mencari list dan menghapus list, lalu menampilkan hasil akhir dari list yang sudah di update.
 
 ## Unguided 
-Diberikan pseudo ADT DLL (Doublylist.h, Doublylist.cpp, main.cpp) terdap
+Diberikan pseudo ADT DLL (Doublylist.h, Doublylist.cpp, main.cpp).
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week6/soalno1a.png)
 
 ### Soal unguided no 1
 1. Buatlah implementasi ADT Doubly Linked list pada file “Doublylist.cpp” dan coba hasil implementasi ADT pada file “main.cpp”.
 
 Outputnya:
-![](github file)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week6/soalno1b.png)
 
 2. Carilah elemen dengan nomor polisi D001 dengan membuat fungsi baru. fungsi findElm( L : List, x : infotype ) : address
 
 Outputnya:
-![](github file)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week6/soalno2.png)
 
 3. Hapus elemen dengan nomor polisi D003 dengan procedure delete.
 - procedure deleteFirst( input/output L : List, P : address )
@@ -952,7 +953,7 @@ Outputnya:
 - procedure deleteAfter( input Prec : address, input/output P : address )
 
 Outputnya: 
-1[](github file)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week6/soalno3.png)
 
 #### 1. ListAngka.h
 
@@ -1187,7 +1188,8 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](Github file)
+![Screenshot Output Unguided 1_1](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week6/outputA.png)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week6/outputB.png)
 
 penjelasan unguided 1 
 Program ini meminta memasukan jumlah kendaraan, lalu user diminta mengisi list(Nomor Polisi, Warna Kendaraan, dan Tahun Kendaraan), program akan menampilkan data yang barusan di isi, lalu program akan mencari kendaraan sesuai dengan nomor polisi yang di inputkan, setelah itu program akan menghapus list sesuai dengan nomor polisi yang di inputkan.
