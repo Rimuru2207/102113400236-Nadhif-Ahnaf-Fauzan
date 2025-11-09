@@ -432,23 +432,23 @@ penjelasan singkat guided 2
 ### Soal unguided no 1
 1. Buatlah ADT Stack menggunakan ARRAY sebagai berikut di dalam file “stack.h”:
 
-![](Github file)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week7/soal1a.png)
 
 Buatlah implementasi ADT Stack menggunakan Array pada file “stack.cpp” dan “main.cpp”
 
 Pseudo dan Outputnya:
-![](File Gambar)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week7/soal1b.png)
 
 2. Tambahkan prosedur pushAscending( in/out S : Stack, in x : integer)!
 
 Pseudo dan Outputnya:
-![](file gambar)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week7/soal2.png)
 
 
 3. Tambahkan prosedur getInputStream( in/out S : Stack ). Prosedur akan terus membaca dan menerima input user dan memasukkan setiap input ke dalam stack hingga user menekan tombol enter. Contoh: gunakan cin.get() untuk mendapatkan inputan user.
 
 Pseudo dan Outputnya: 
-![](github file)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week7/soal3.png)
 
 #### 1. stack.h
 
@@ -616,13 +616,13 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](Github file)
+![Screenshot Output Unguided 1_1](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week7/output1.png)
 
 #### Output 2
-![Screenshot Output Unguided 1_2](Github file)
+![Screenshot Output Unguided 1_2](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week7/output2.png)
 
 #### Output 3
-![Screenshot Output Unguided 1_3](Github file)
+![Screenshot Output Unguided 1_3](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week7/output3.png)
 
 penjelasan unguided 1 
 Program ini akan memasukan sebuah array kedalam stack dengan ukuran array max 20, lalu program akan menampilkan stack lalu membalikan stack tersebut, untuk nomor 2: program akan menginput stack secara ascending lalu akan dibalikkan lagi, nomor 3: yaitu user akan menginputkan array sendiri, lalu program akan terus membaca array tersebut sampai user menekan tombol enter.
