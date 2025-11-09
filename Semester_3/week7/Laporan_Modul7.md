@@ -1,0 +1,635 @@
+# <h1 align="center">Laporan Praktikum Modul 7 - Stack</h1>
+<p align="center">Nadhif Ahnaf Fauzan - 103112400236</p>
+
+## Dasar Teori
+Struktur data Stack yaitu ibarat proses penumpukan nampan di suatu kafetaria. Setiap nampan baru akan ditumpukkan di atas tumpukan nampan yang sudah ada dan nampan terakhir di dalam tumpukan merupakan nampan pertama yang dapat diambil dari tumpukan tersebut. Penggunaan Stack banyak digunakan dalam pemrograman dan algoritma, mulai dari manajemen memori hingga penanganan eksekusi fungsi[1].
+
+### A. Materi Minggu Ketiga<br/>
+Dalam pertemuan minggu ke-tujuh di mata kuliah Struktur Data, mahasiswa dijelaskan tentang materi Stack
+
+#### 1. Stack
+Stack adalah struktur data linier yang mengikuti aturan tertentu untuk melakukan operasi. Menambah dan menghapus elemen dari tumpukan hanya dapat terjadi di satu lokasi, yaitu ujung tumpukan. Stack bersifat LIFO (Last in First Out) dan objek yang terakhir masuk ke dalam Stack akan menjadi benda pertama yang dikeluarkan dari Stack itu[1].
+
+
+## Guided 1
+ 
+### 1. Stack 1
+
+#### 1. Stack.h
+```C++
+#ifndef STACK
+#define STACK
+#define Nil NULL
+
+#include<iostream>
+using namespace std;
+
+typedef struct node *address;
+
+struct node{
+    int dataAngka;
+    address next;
+};
+
+struct stack{
+    address top;
+};
+
+bool isEmpty(stack listStack);
+void createStack(stack &listStack);
+address alokasi(int angka);
+void dealokasi(address &node);
+
+void push(stack &listStack, address nodeBaru);
+void pop(stack &listStack);
+void update(stack &listStack, int posisi);
+void view(stack listStack);
+void searchData(stack listStack, int data);
+
+#endif
+```
+
+#### 2. Stack.cpp
+```C++
+#include "stack.h"
+#include <iostream>
+
+using namespace std;
+
+bool isEmpty(stack listStack){
+    if(listStack.top == Nil){
+        return true;
+    } else {
+        return false;
+    }
+}
+
+void createStack(stack &listStack){
+    listStack.top = Nil;
+}
+
+address alokasi(int angka){
+    address nodeBaru = new node;
+    nodeBaru->dataAngka = angka;
+    nodeBaru->next = Nil;
+    return nodeBaru;
+}
+
+void dealokasi(address &node){
+    node->next = Nil;
+    delete node;
+}
+
+void push(stack &listStack, address nodeBaru){
+    nodeBaru->next = listStack.top;
+    listStack.top = nodeBaru;
+    cout << "Node " << nodeBaru->dataAngka << " berhasil ditambahkan kedalam stack!" << endl;
+}
+
+void pop(stack &listStack){
+    address nodeHapus;
+    if(isEmpty(listStack) == true){
+        cout << "Stack kosong!" << endl;
+    } else {
+        nodeHapus = listStack.top;
+        listStack.top = listStack.top->next;
+        nodeHapus->next = Nil;
+        dealokasi(nodeHapus);
+        cout << "node " <<  nodeHapus->dataAngka << " berhasil dihapus dari stack!" << endl;
+    }
+}
+
+void update(stack &listStack, int posisi){
+    if(isEmpty(listStack) == true){
+        cout << "Stack kosong!" << endl;
+    } else {
+        if(posisi == 0){
+            cout << "Posisi tidak valid!" << endl;
+        } else {
+            address nodeBantu = listStack.top;
+            int count = 1;
+            bool found = false;
+            while(nodeBantu != Nil){
+                if(count < posisi){
+                    nodeBantu = nodeBantu->next;
+                    count++;
+                } else if(count == posisi){
+                    cout << "Update node poisisi ke-" << posisi << endl;
+                    cout << "Masukkan angka : ";
+                    cin >> nodeBantu->dataAngka;
+                    cout << "Data berhasil diupdate!" << endl;
+                    cout << endl;
+                    found = true;
+                    break;
+                }
+            }
+            if(found == false){
+                cout << "Posisi " << posisi << " tidak valid!" << endl;
+            }
+        }
+    }
+}
+
+void view(stack listStack){
+    if(isEmpty(listStack) == true){
+        cout << "List kosong!" << endl;
+    } else {
+        address nodeBantu = listStack.top;
+        while(nodeBantu != Nil){
+            cout << nodeBantu->dataAngka << " ";
+            nodeBantu = nodeBantu->next;
+        }
+    }
+    cout << endl;
+}
+
+void searchData(stack listStack, int data){
+    if(isEmpty(listStack) == true){
+        cout << "List kosong!" << endl;
+    } else {
+        address nodeBantu = listStack.top;
+        int posisi = 1;
+        bool found = false;
+        cout << "Mencari data " << data << "..." << endl;
+        while(nodeBantu != Nil){
+            if(nodeBantu->dataAngka == data){
+                cout << "Data " << data << " ditemukan pada posisi ke-" << posisi << endl;
+                found = true;
+                cout << endl;
+                break;
+            } else {
+                posisi++;
+                nodeBantu = nodeBantu->next;
+            }
+        }
+        if(found == false){
+            cout << "Data " << data << " tidak ditemukan didalam stack!" << endl;
+            cout << endl;
+        }
+    }
+}
+```
+
+#### 3. main.cpp
+```C++
+#include "stack.h"
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    stack listStack;
+    address nodeA, nodeB, nodeC, nodeD, nodeE = Nil;
+    createStack(listStack);
+
+    nodeA = alokasi(1);
+    nodeB = alokasi(2);
+    nodeC = alokasi(3);
+    nodeD = alokasi(4);
+    nodeE = alokasi(5);
+
+    push(listStack, nodeA);
+    push(listStack, nodeB);
+    push(listStack, nodeC);
+    push(listStack, nodeD);
+    push(listStack, nodeE);
+    cout << endl;
+
+    cout << "--- Stack setelah push ---" << endl;
+    view(listStack);
+    cout << endl;
+
+    pop(listStack);
+    pop(listStack);
+    cout << endl;
+
+    cout << "--- Stack setelah pop 2 kali ---" << endl;
+    view(listStack);
+    cout << endl;
+
+    update(listStack, 2);
+    update(listStack, 1);
+    update(listStack, 4);
+    cout << endl;
+
+    cout << "--- Stack setelah update ---" << endl;
+    view(listStack);
+    cout << endl;
+
+    searchData(listStack, 4);
+    searchData(listStack, 9);
+
+    return 0;
+}
+```
+penjelasan singkat guided 1
+    program ini akan menambahkan beberapa node kedalam program stack, lalu program akan menampilkan stack sesuai dengan node yang terakhir di input, lalu program akan menghapus 2 node dan menampilkan stack yang sudah di update, user lalu menginput data baru untuk mengganti data lama sesuai dengan kondisi lalu program akan mencari data.
+
+## Guided 2
+ 
+### 2. Stack 2
+
+#### 1. Stack.h
+```C++
+
+#ifndef STACK_TABLE
+#define STACK_TABLE
+#include <iostream>
+using namespace std;
+// Ubah kapasitas sesuai kebutuhan const int MAX = 10;
+const int MAX = 10;
+
+struct stackTable
+{
+    int data[MAX];
+    int top; //-1 = kosong
+};
+bool isEmpty(stackTable s);
+bool isFull(stackTable s);
+void createStack(stackTable &s);
+void push(stackTable &s, int angka);
+void pop(stackTable &s);
+void update(stackTable &s, int posisi);
+void view(stackTable s);
+void searchData(stackTable s, int data);
+#endif
+```
+
+#### 2. Stack.cpp
+```C++
+
+#include "stack.h"
+#include <iostream>
+using namespace std;
+
+bool isEmpty(stackTable s)
+{
+    return s.top == -1;
+}
+bool isFull(stackTable s)
+{
+    return s.top == MAX - 1;
+}
+void createStack(stackTable &s)
+{
+    s.top = -1;
+}
+void push(stackTable &s, int angka)
+{
+
+    if (isFull(s))
+    {
+        cout << "Stack penuh!" << endl;
+    }
+    else
+    {
+        s.top++;
+        s.data[s.top] = angka;
+        cout << "Data" << angka << "berhasil ditambahkan kedalam stack !" << endl;
+    }
+}
+
+void pop(stackTable &s)
+{
+    if (isEmpty(s))
+    {
+        cout << "Stack kosong!" << endl;
+    }
+    else
+    {
+        int val = s.data[s.top];
+        s.top--;
+        cout << "Data" << val << " berhasil dihapus dari stack!" << endl;
+    }
+}
+
+void update(stackTable &s, int posisi)
+{
+    if (isEmpty(s)){
+    }
+    cout << "Stack kosong!" << endl;
+    return;
+    if (posisi <= 0)
+    {
+        cout << "Posisi tidak valid!" << endl;
+        return;
+    }
+    // index = top
+
+    int idx = s.top - (posisi - 1);
+    if (idx < 0 || idx > s.top)
+    {
+        cout << "Posisi " << posisi << " tidak valid!" << endl;
+        return;
+    }
+
+    cout << "Update data posisi ke-" << posisi << endl;
+    cout << "Masukkan angka : ";
+    cin >> s.data[idx];
+    cout << "Data berhasil diupdate!" << endl;
+    cout << endl;
+}
+
+void view(stackTable s)
+{
+    if (isEmpty(s)){
+        cout << "Stack kosong!" << endl;
+    }
+    else
+    {
+        for (int i = s.top; i >= 0; --i)
+        {
+            cout << s.data[i] << " ";
+        }
+    }
+    cout << endl;
+}
+
+void searchData(stackTable s, int data)
+{
+    if (isEmpty(s))
+    {
+        cout << "Stack kosong!" << endl;
+        return;
+    }
+
+    cout << "Mencari data " << data << "..." << endl;
+    int posisi = 1;
+    bool found = false;
+
+    for (int i = s.top; i >= 0; --i)
+    {
+        if (s.data[i] == data)
+        {
+            cout << "Data " << data << " ditemukan pada posisi ke-" << posisi << endl;
+            cout << endl;
+            found = true;
+            break;
+        }
+        posisi++;
+    }
+
+    if (!found)
+    {
+        cout << "Data " << data << " tidak ditemukan didalam stack!" << endl;
+        cout << endl;
+    }
+}
+```
+
+#### 3. main.cpp
+```C++
+#include "stack.h"
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    stackTable s;
+    createStack(s);
+
+    push(s, 1);
+    push(s, 2);
+    push(s, 3);
+    push(s, 4);
+    push(s, 5);
+    cout << endl;
+
+    cout << "--- Stack setelah push ---" << endl;
+    view(s);
+    cout << endl;
+
+    pop(s);
+    pop(s);
+    cout << endl;
+
+    cout << "--- Stack setelah pop 2 kali ---" << endl;
+    view(s);
+    cout << endl;
+
+    // Posisi dihitung dari TOP (1-based)
+    update(s, 2);
+    update(s, 1);
+    update(s, 4);
+    cout << endl;
+
+    cout << "--- Stack setelah update ---" << endl;
+    view(s);
+    cout << endl;
+
+    searchData(s, 4);
+    searchData(s, 9);
+
+    return 0;
+}
+```
+penjelasan singkat guided 2
+    program ini hampir mirip dengan progam guided1 tetapi program otomatis akan update data, tetapi karena stack sudah terhapus maka data stack kosong.
+
+## Unguided 
+
+### Soal unguided no 1
+1. Buatlah ADT Stack menggunakan ARRAY sebagai berikut di dalam file “stack.h”:
+
+![](Github file)
+
+Buatlah implementasi ADT Stack menggunakan Array pada file “stack.cpp” dan “main.cpp”
+
+Pseudo dan Outputnya:
+![](File Gambar)
+
+2. Tambahkan prosedur pushAscending( in/out S : Stack, in x : integer)!
+
+Pseudo dan Outputnya:
+![](file gambar)
+
+
+3. Tambahkan prosedur getInputStream( in/out S : Stack ). Prosedur akan terus membaca dan menerima input user dan memasukkan setiap input ke dalam stack hingga user menekan tombol enter. Contoh: gunakan cin.get() untuk mendapatkan inputan user.
+
+Pseudo dan Outputnya: 
+![](github file)
+
+#### 1. stack.h
+
+```C++
+#ifndef STACK_H
+#define STACK_H
+using namespace std;
+
+const int MAX = 20;
+typedef int infotype;
+
+struct Stack {
+    infotype info[MAX];
+    int top;
+};
+
+void createStack(Stack &S);
+void push(Stack &S, infotype x);
+infotype pop(Stack &S);
+void printInfo(Stack S);
+void balikStack(Stack &S);
+
+void pushAscending(Stack &S, infotype x);
+void getInputStream(Stack &S);
+
+#endif
+```
+
+#### 2. stack.cpp
+
+```C++
+#include "stack.h"
+#include <iostream>
+using namespace std;
+
+void createStack(Stack &S) {
+    S.top = -1;
+}
+
+bool isFull(Stack S) {
+    return S.top == MAX - 1;
+}
+
+bool isEmpty(Stack S) {
+    return S.top == -1;
+}
+
+void push(Stack &S, infotype x) {
+    if (!isFull(S)) {
+        S.top++;
+        S.info[S.top] = x;
+    } else {
+        cout << "Stack penuh!" << endl;
+    }
+}
+
+infotype pop(Stack &S) {
+    if (!isEmpty(S)) {
+        infotype x = S.info[S.top];
+        S.top--;
+        return x;
+    } else {
+        cout << "Stack kosong!" << endl;
+        return -1;
+    }
+}
+
+void printInfo(Stack S) {
+    cout << "[TOP] ";
+    for (int i = S.top; i >= 0; i--) {
+        cout << S.info[i] << " ";
+    }
+    cout << endl;
+}
+
+void balikStack(Stack &S) {
+    Stack temp;
+    createStack(temp);
+
+    while (!isEmpty(S)) {
+        push(temp, pop(S));
+    }
+    S = temp;
+}
+
+void pushAscending(Stack &S, infotype x) {
+    if (isFull(S)) {
+        cout << "Stack penuh!" << endl;
+        return;
+    }
+
+    Stack temp;
+    createStack(temp);
+
+    while (!isEmpty(S) && S.info[S.top] > x) {
+        push(temp, pop(S));
+    }
+    push(S, x);
+
+    while (!isEmpty(temp)) {
+        push(S, pop(temp));
+    }
+}
+
+void getInputStream(Stack &S) {
+    string input;
+    cin >> input;
+
+    for (char c : input) {
+        if (isdigit(c)) {
+            push(S, c - '0');
+        }
+    }
+}
+```
+
+#### 3. main.cpp
+
+```C++
+#include "stack.h"
+#include <iostream>
+using namespace std;
+
+int main() {
+    cout << "Hello world!" << endl;
+    Stack S;
+    createStack(S);
+
+    push(S,3);
+    push(S,4);
+    push(S,8);
+    push(S,2);
+    push(S,9);
+    printInfo(S);
+    cout << "balik stack" << endl;
+    balikStack(S);
+    printInfo(S);
+    
+/* no 2: hapus aja note nya kalo mau ngecek kode
+
+    pushAscending(S,3);
+    pushAscending(S,4);
+    pushAscending(S,8);
+    pushAscending(S,2);
+    pushAscending(S,3);
+    pushAscending(S,9);
+    printInfo(S);
+    cout << "balik stack" << endl;
+    balikStack(S);
+    printInfo(S);
+ */   
+
+/* no 3: hapus aja note nya kalo mau ngecek
+
+    getInputStream(S);
+    printInfo(S);
+    cout << "balik stack" << endl;
+    balikStack(S);
+    printInfo(S);
+*/
+
+    return 0;
+}
+```
+### Output Unguided 1 :
+
+##### Output 1
+![Screenshot Output Unguided 1_1](Github file)
+
+#### Output 2
+![Screenshot Output Unguided 1_2](Github file)
+
+#### Output 3
+![Screenshot Output Unguided 1_3](Github file)
+
+penjelasan unguided 1 
+Program ini akan memasukan sebuah array kedalam stack dengan ukuran array max 20, lalu program akan menampilkan stack lalu membalikan stack tersebut, untuk nomor 2: program akan menginput stack secara ascending lalu akan dibalikkan lagi, nomor 3: yaitu user akan menginputkan array sendiri, lalu program akan terus membaca array tersebut sampai user menekan tombol enter.
+
+## Kesimpulan
+Dari pertemuan minggu ketujuh ini, mahasiswa diajarkan tentang stack, pengenalan contoh stack dan cara membuatnya.
+
+## Referensi
+[1] Risky Dwi Setiawan, et al. (2024). "Penggunaan Struktur Data Stack dalam Pemrograman C++ dengan Pendekatan Array dan Linked List". vol 5. hal 485-487. melalui https://doi.org/10.31932/jutech.v5i2.4263 pada 8 November 2025.
+<br>
