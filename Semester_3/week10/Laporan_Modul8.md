@@ -440,7 +440,7 @@ penjelasan singkat guided 1
 ## Unguided 
 
 ### Soal unguided no 1
-1. ![](Picture)
+1. ![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week10/soal1.png)
 
 2. Buatlah fungsi untuk menghitung jumlah node dengan fungsi berikut.
 ➢ fungsi hitungJumlahNode( root:address ) : integer
@@ -450,9 +450,9 @@ penjelasan singkat guided 1
 ➢ fungsi hitungKedalaman( root:address, start:integer ) : integer
 /* fungsi rekursif mengembalikan integer kedalaman maksimal dari binary tree */
 
-![](Picture)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week10/soal2.png)
 
-3. ![](Picture)
+3. ![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week10/soal3.png)
 
 #### 1. bstree.h
 
@@ -609,13 +609,13 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](Github file)
+![Screenshot Output Unguided 1_1](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week10/output1.png)
 
 #### Output 2
-![Screenshot Output Unguided 1_2](Github file)
+![Screenshot Output Unguided 1_2](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week10/output2.png)
 
 #### Output 3
-![Screenshot Output Unguided 1_3](Github file)
+![Screenshot Output Unguided 1_3](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week10/output3.png)
 
 penjelasan singkat unguided 1
     Program ini membuat Binary Search Tree (BST), memasukkan beberapa angka ke dalamnya, lalu menampilkan hasilnya dengan berbagai traversal (InOrder, PreOrder, PostOrder). Program juga menghitung kedalaman tree, jumlah node, dan total nilai semua node. Semua fungsi untuk mengolah BST—seperti insert, cari, hitung, dan traversal—diimplementasikan di bstree.cpp, sedangkan main.cpp hanya memanggil fungsi-fungsi tersebut untuk menunjukkan cara kerja BST.
