@@ -384,12 +384,9 @@ penjelasan singkat guided 2
 ### Soal unguided no 1
 1. Buatlah ADT Stack menggunakan ARRAY sebagai berikut di dalam file “queue.h”:
 
-![](Github file)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week8/soal1a.png)
 
-Buatlah implementasi ADT Stack menggunakan Array pada file “stack.cpp” dan “main.cpp”
-
-Pseudo dan Outputnya:
-![](File Gambar)
+![](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week8/soal1b.png)
 
 2. Buatlah implementasi ADT Queue pada file “queue.cpp” dengan menerapkan mekanisme queue Alternatif 2 (head bergerak, tail bergerak).
 
@@ -641,13 +638,13 @@ int main() {
 ### Output Unguided 1 :
 
 ##### Output 1
-![Screenshot Output Unguided 1_1](Github file)
+![Screenshot Output Unguided 1_1](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week8/output1.png)
 
 #### Output 2
-![Screenshot Output Unguided 1_2](Github file)
+![Screenshot Output Unguided 1_2](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week8/output2.png)
 
 #### Output 3
-![Screenshot Output Unguided 1_3](Github file)
+![Screenshot Output Unguided 1_3](https://github.com/Rimuru2207/102113400236-Nadhif-Ahnaf-Fauzan/blob/main/Semester_3/week8/output3.png)
 
 penjelasan unguided 1 
 Program ini mengimplementasikan struktur data Queue berbasis array berukuran 5 menggunakan indeks head dan tail untuk menandai elemen pertama dan terakhir. Pada awalnya kedua indeks bernilai –1 sebagai penanda queue kosong. File queue.h mendefinisikan struktur dan fungsi, sedangkan queue.cpp berisi implementasi operasi seperti enqueue yang menambahkan data ke posisi tail, dequeue yang mengambil data dari head lalu menggeser elemen ke kiri, serta fungsi pengecekan kondisi kosong/penuh dan printInfo untuk menampilkan isi queue. File main.cpp menjalankan beberapa operasi enqueue dan dequeue, kemudian menampilkan perubahan head, tail, dan isi queue setelah setiap langkah sehingga menunjukkan bagaimana queue bekerja mengikuti prinsip FIFO (First In First Out).
