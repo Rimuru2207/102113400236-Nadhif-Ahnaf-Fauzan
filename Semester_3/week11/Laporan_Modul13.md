@@ -1,11 +1,11 @@
-# <h1 align="center">Laporan Praktikum Modul 11 - Multi Linked List</h1>
+# <h1 align="center">Laporan Praktikum Modul 13 - Multi Linked List</h1>
 <p align="center">Nadhif Ahnaf Fauzan - 103112400236</p>
 
 ## Dasar Teori
 Multi-Linked List adalah varian dari linked list di mana tiap node bisa memiliki lebih dari satu pointer ke node-node lain — tidak hanya “next” seperti singly linked list, atau “next + prev” seperti doubly linked list — melainkan bisa N pointer[1].
 
-### A. Materi Minggu 11<br/>
-Pada minggu 11 mahasiswa diajarkan lebih lanjut tentang Multi Linked List.
+### A. Materi Minggu 13<br/>
+Pada minggu 13 mahasiswa diajarkan lebih lanjut tentang Multi Linked List.
 
 #### 1. Multi Linked List
 Sebuah node pada multi-linked list umumnya terdiri dari: data + satu koleksi pointer/reference ke node-node lain. Contohnya bisa berupa array atau vector pointer. Dalam implementasi yang lebih spesifik, misalnya untuk representasi matriks jarang (sparse matrix), sebuah node bisa menyimpan data + pointer ke “next row” dan “next column” + informasi koordinat (row, column)[1].
@@ -1395,7 +1395,7 @@ penjelasan singkat unguided 1
     Kode ini mengimplementasikan Multi Linked List yang berisi parent (golongan hewan) dan child (hewan). Tersedia fungsi untuk mengecek list kosong, membuat list baru, mengalokasikan dan menghapus node parent maupun child. Operasi insert dan delete dibuat untuk menambah atau menghapus node di awal, akhir, atau setelah node tertentu, sambil menjaga pointer next dan prev agar struktur doubly linked list tetap benar. Fungsi printMLLStructure menampilkan seluruh parent beserta daftar child-nya dengan format terurut. Sementara itu, searchHewanByEkor mencari semua hewan berdasarkan nilai ekornya (TRUE/FALSE) lalu menampilkan detail child serta posisi parent dan child dalam list. Secara ringkas, kode ini menyediakan operasi dasar CRUD untuk multi linked list dua tingkat.
 
 ## Kesimpulan
-Dari pertemuan minggu ke-11 ini, mahasiswa diajarkan tentang Multi Linked List, pengenalan contoh Multi Linked List dan cara membuatnya.
+Dari pertemuan minggu ke-13 ini, mahasiswa diajarkan tentang Multi Linked List, pengenalan contoh Multi Linked List dan cara membuatnya.
 
 ## Referensi
 [1] geeksforgeeks (2025). "Introduction to Multi Linked List". diakses pada tanggal 6 Desember 2025 melalui https://www.geeksforgeeks.org/dsa/introduction-to-multi-linked-list/.  
